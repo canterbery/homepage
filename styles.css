@@ -111,3 +111,20 @@ body {
   color: #fff;
   font-weight: 300;
 }
+/* About me */
+.about-me {
+  margin-bottom: 50px;
+}
+
+.about-me:last-child {
+  margin-bottom: 0px;
+}
+.about-me__name {
+  color: #003147;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  color: #333;
+}
