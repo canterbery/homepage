@@ -128,3 +128,21 @@ body {
 .about-me p {
   color: #333;
 }
+/* Work experience */
+.work-experience-item {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+.work-experience-item__year-company {
+  min-width: 150px;
+}
+.work-experience-item__year-company h5 {
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 600;
+}
+.work-experience-item__position h4 {
+  text-transform: uppercase;
+  color: #2a72a2;
+}
