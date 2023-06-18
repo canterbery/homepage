@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 body {
@@ -23,9 +23,10 @@ body {
   background: #fff;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 35px 55px rgb(0 0 0 / 10%);
   margin: 50px;
 }
+
 .sidebar {
   position: relative;
   background: #003147;
@@ -44,8 +45,9 @@ body {
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgb(255 255 255 / 20%);
 }
+
 .avatar-container {
   position: relative;
   width: 200px;
@@ -53,6 +55,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
 }
+
 .avatar-container__img {
   position: absolute;
   top: 0;
@@ -61,10 +64,13 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
 /* Contacts */
+
 .contacts {
   padding-top: 40px;
 }
+
 .title {
   color: #fff;
   text-transform: uppercase;
@@ -90,6 +96,7 @@ body {
   font-size: 18px;
   color: #03a9f4;
 }
+
 .contacts ul li span {
   color: #fff;
   font-weight: 300;
@@ -99,19 +106,24 @@ body {
 .contacts.education li {
   margin-bottom: 15px;
 }
+
 .contacts.education h5 {
   color: #03a9f4;
   font-weight: 500;
 }
-.contacts.education h4:nth-child(2) {
-  color: #fff;
-  font-weight: 500;
-}
+
 .contacts.education h4 {
   color: #fff;
   font-weight: 300;
 }
+
+.contacts.education h4:nth-child(2) {
+  color: #fff;
+  font-weight: 500;
+}
+
 /* About me */
+
 .about-me {
   margin-bottom: 50px;
 }
@@ -119,6 +131,7 @@ body {
 .about-me:last-child {
   margin-bottom: 0px;
 }
+
 .about-me__name {
   color: #003147;
   text-transform: uppercase;
@@ -128,26 +141,32 @@ body {
 .about-me p {
   color: #333;
 }
+
 /* Work experience */
+
 .work-experience-item {
   display: flex;
   gap: 20px;
   margin: 20px 0;
 }
+
 .work-experience-item__year-company {
   min-width: 150px;
 }
+
 .work-experience-item__year-company h5 {
   text-transform: uppercase;
   color: #848c90;
   font-weight: 600;
 }
+
 .work-experience-item__position h4 {
   text-transform: uppercase;
   color: #2a72a2;
 }
 
 /* Skills */
+
 .skills-item {
   display: flex;
   gap: 20px;
@@ -159,23 +178,26 @@ body {
 }
 
 /* Additional info */
+
 .additional-info-item {
   display: flex;
   gap: 20px;
   margin: 20px 0;
 }
+
 .additional-info-item h4 {
   text-transform: uppercase;
   color: #2a72a2;
 }
 
-@media (max-width: 1000px) {
+@media (width <= 1000px) {
   .container {
     margin: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media (max-width: 600px) {
+
+@media (width <= 600px) {
   .work-experience-item {
     flex-direction: column;
   }
