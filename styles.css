@@ -157,3 +157,14 @@ body {
 .skills-item h4 {
   text-transform: uppercase;
 }
+
+/* Additional info */
+.additional-info-item {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+.additional-info-item h4 {
+  text-transform: uppercase;
+  color: #2a72a2;
+}
