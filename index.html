@@ -4,9 +4,190 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="avatar">
+          <div class="avatar-container">
+            <img
+              src="/assets/new-avatar.png"
+              alt="avatar"
+              class="avatar-container__img"
+            />
+          </div>
+        </div>
+        <!-- Contacts -->
+        <div class="contacts">
+          <h3 class="title">Contacts</h3>
+          <ul>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-phone" aria-hidden="true"></i></span
+              ><span class="text">+380 0978696330</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-envelope-o" aria-hidden="true"></i></span
+              ><span class="text">wotphantommail@gmail.com</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i></span
+              ><span class="text"
+                ><a
+                  href="https://www.linkedin.com/in/vyacheslav-kshyshtyniak-113552242/"
+                  rel="author"
+                  class="contact-info__item"
+                  target="_blank"
+                >
+                  <span>vyacheslav-kshyshtyniak</span>
+                </a></span
+              >
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-github" aria-hidden="true"></i></span
+              ><span class="text">
+                <a
+                  href="https://github.com/canterbery"
+                  rel="author"
+                  class="contact-info__item"
+                  target="_blank"
+                >
+                  <span>canterbery</span>
+                </a>
+              </span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-globe" aria-hidden="true"></i></span
+              ><span class="text">Kyiv, Ukraine</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Education -->
+        <div class="contacts education">
+          <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>2001-2005</h5>
+              <h4>Bachelor degree in Computer Science</h4>
+              <h4>Kharkiv National University of Radioelectronics</h4>
+            </li>
+          </ul>
+        </div>
+        <!-- Languages -->
+        <div class="contacts languages">
+          <h3 class="title">Languages</h3>
+          <ul>
+            <li>
+              <span class="text">Ukrainian - native</span>
+            </li>
+            <li><span class="text">English - B2</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Main content -->
+      <div class="content">
+        <!-- About me -->
+        <div class="about-me">
+          <h2 class="about-me__name">Vyacheslav Kshyshtyniak</h2>
+          <p>
+            Hello , I am former Delphi developer looking for new career
+            opportunities after a long break. I have been studying JS and JS
+            ecosystem for about a year now. I really like system approach to
+            education and learning by doing , that's why I couldn't pass up the
+            opportunity to join BSA.
+          </p>
+        </div>
+        <!-- Work Experience -->
+        <div class="about-me">
+          <h2 class="about-me__name">Experience</h2>
+          <div class="work-experience">
+            <div class="work-experience-item">
+              <div class="work-experience-item__year-company">
+                <h5>May 2022 - June 2022</h5>
+                <h5>Radency</h5>
+              </div>
+
+              <div class="work-experience-item__position">
+                <h4>React/NodeJS Intern</h4>
+                <p>
+                  Full stack development of internship project (helsi.me - like
+                  portal ) in a team.
+                </p>
+              </div>
+            </div>
+            <div class="work-experience-item">
+              <div class="work-experience-item__year-company">
+                <h5>2005 - 2009</h5>
+                <h5>TG "Target"</h5>
+              </div>
+
+              <div class="work-experience-item__position">
+                <h4>Delphi developer</h4>
+                <p>
+                  Support and modernization of existing software (inventory
+                  control . document flow automation , personnel management )
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Skills -->
+        <div class="about-me">
+          <h2 class="about-me__name">Professional Skills</h2>
+          <div class="skills-item">
+            >
+            <h4>HTML , CSS , SASS , Tailwind CSS</h4>
+          </div>
+          <div class="skills-item">
+            >
+            <h4>Node Js , Express , Next Js , Sequelize</h4>
+          </div>
+          <div class="skills-item">
+            >
+            <h4>Javascript , React , Redux , Typescript</h4>
+          </div>
+          <div class="skills-item">
+            >
+            <h4>SQL , PostgreSQL , MongoDB , Docker</h4>
+          </div>
+        </div>
+        <!-- Additional info -->
+        <div class="about-me">
+          <h2 class="about-me__name">Additional Info</h2>
+          <div class="additional-info-item">
+            >
+            <h4>Hobbies : Chess , MTG , tabletop games</h4>
+          </div>
+          <div class="additional-info-item">
+            >
+            <h4>
+              Likes : rock and classical music , science fiction , history ,
+              museums, cooking
+            </h4>
+          </div>
+          <div class="additional-info-item">
+            >
+            <h4>
+              Dislikes : Cardboard scratching sound, hot weather, shopping , big
+              cities, reality-shows
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
