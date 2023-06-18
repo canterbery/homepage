@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
 .sidebar {
   position: relative;
   background: #003147;
-  padding: 40px;
+  padding: 30px;
 }
 
 .content {
@@ -59,4 +60,37 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+/* Contacts */
+.contacts {
+  padding-top: 40px;
+}
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contacts ul {
+  position: relative;
+}
+
+.contacts ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.contacts ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+.contacts ul li span {
+  color: #fff;
+  font-weight: 300;
 }
