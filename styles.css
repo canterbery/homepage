@@ -168,3 +168,15 @@ body {
   text-transform: uppercase;
   color: #2a72a2;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .work-experience-item {
+    flex-direction: column;
+  }
+}
